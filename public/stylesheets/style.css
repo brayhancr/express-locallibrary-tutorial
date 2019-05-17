@@ -1,0 +1,95 @@
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.counter-tag {
+  background-color: #3516e4;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial, 'Courier new', 'Sans serif';
+  width: 15px;
+  height: 20px;
+  padding: 0 10px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.status-tag {
+  max-width: 90px;
+  padding: 0 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial, 'Courier new', 'Sans serif';
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  text-align: center;
+}
+
+.stat-success {
+  background-color: #258825;
+}
+
+.stat-warning {
+  background-color: #97c924;
+}
+
+.stat-danger {
+  background-color: #a00d0d;
+}
+
+input[type='text']:required,
+input[type='date']:required,
+input[type='textarea']:required,
+textarea:required,
+select:required {
+  border-left: 3px solid #f00;
+}
+
+input[type='text'],
+input[type='date'],
+input[type='textarea'],
+textarea,
+select {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+/* Anchor animation */
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover  {
+  text-decoration: none;
+}
+
+a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #2f56b3;
+  transition: width .3s;
+  -webkit-transition: width .3s;
+  -moz-transition: width .3s;
+  -ms-transition: width .3s;
+  -o-transition: width .3s;
+}
+
+a:hover::after {
+  width: 100%;
+}
